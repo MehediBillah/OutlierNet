@@ -24,6 +24,7 @@ def split_sequence(sequence, n_steps):
         y.append(seq_y)
     return np.array(X), np.array(y)
 
+
 # Main script execution
 if __name__ == '__main__':
     num_samples = 1000  # Number of samples for testing
